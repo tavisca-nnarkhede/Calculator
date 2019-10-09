@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Comic Sans MS";
+}
+.container{
+  margin: 0 auto;
+}
+header{
+  background-color: #43C6DB;
+  text-align: center;
+  text-transform: uppercase;
+}
+button
+{
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px;
+  width: 20%;
+  height: 30px;
+}
+.calculator
+{
+  width: 20%;
+  height:250px;
+  margin-left: 10px;
+  background-color: #D1D0CE;
+}
+.displayResult
+{
+  background-color: #B6B6B4;
+  border: 1px solid #000000;
+  height: 50px;
+}
+
+.displayButton button
+{
+  font-family: "Comic Sans MS";
+  font-size: 15px;
+  width:15%;
+}
