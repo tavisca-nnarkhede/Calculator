@@ -76,9 +76,13 @@ function calculateResult()
 {
   if(firstNum!=0 && secondNum!=0 && operator !=null)
   {
-    result=eval(displayResult.innerHTML);
-    displayResult.append("=");
-    displayResult.append(result);
+    result=   operator == '+' ? firstNum + secondNum
+            : operator == '-' ? firstNum - secondNum
+            : operator == '*' ? firstNum * secondNum
+            : operator=='/' ? firstNum / secondNum
+            : 0;
+      displayResult.append("=");
+      displayResult.append(result);
   }
   else
   {
